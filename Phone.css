@@ -45,5 +45,7 @@ li{
   height: 45px;
   top: 10px;
   left: 170px;
+  margin: 0;
+  padding: 0;
 }
 }
