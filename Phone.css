@@ -35,7 +35,7 @@ li{
   top:-3px;
   left:0px;
   z-index:1;
-  width:50px;
+  width:60px;
   height:50px;
   opacity: 0;
 }
@@ -48,5 +48,14 @@ li{
   margin: 0;
   padding: 0;
   opacity: 0.5;
+}
+.desplegable{
+  position: fixed;
+  background-color: blue;
+  width: 480px;
+  height: 200px;
+  top: 57px;
+  margin: 0;
+  padding: 0;
 }
 }
