@@ -1,0 +1,47 @@
+@media screen and (max-width:480px){
+  body{
+    background-color: red;
+  }
+
+.cap{
+  position: fixed;
+  background-color: #49B29C;
+  width: 480px;
+  height: 50px;
+  margin: 0px;
+  margin-left: -10px;
+  padding: 0px;
+}
+#burguer{
+ margin:0;
+ padding:0;
+ position:absolute;
+ top:5px;
+ left:10px;
+ opacity: 0.5;
+}
+#burguer li{
+  width:50px;
+  height:7px;
+  background-color:#FFF;
+  margin: 5px 0;
+}
+li{
+  list-style-type:none;
+}
+.check{
+  cursor: pointer;
+  position:absolute;
+  top:-3px;
+  left:22px;
+  z-index:1;
+  width:50px;
+  height:50px;
+  opacity: 0;
+}
+.Logo{
+  position: fixed;
+  top: 12px;
+  left: 230px;
+}
+}

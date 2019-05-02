@@ -1,0 +1,14 @@
+@media screen and (min-width:481px){
+  body{
+    background-color: blue;
+  }
+
+.cap{
+  position: absolute;
+  background-color: #49B29C;
+  width: 700px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+}
