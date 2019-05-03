@@ -58,7 +58,7 @@ li{
   top: 47px;
   margin: 0;
   padding: 0;
-  display: none;
+  
 }
 .check:checked > .desplegable{
   display: block;
