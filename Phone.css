@@ -1,6 +1,6 @@
 @media screen and (max-width:480px){
   body{
-    background-color: red;
+    background-color: #E5E4E4;
   }
 
 .cap{
@@ -16,7 +16,7 @@
 #burguer{
  margin:0;
  padding:0;
- position:absolute;
+ position: absolute;
  top:8px;
  left:10px;
  opacity: 0.5;
@@ -58,6 +58,10 @@ li{
   top: 47px;
   margin: 0;
   padding: 0;
+  display: none;
+}
+.burguer:checked > .desplegable{
+  display: block;
 }
 .link1{
   width: 160px;
@@ -141,7 +145,7 @@ li{
 }
 .flechadesliza2 {
   position: absolute;
-          animation: desliza2 4s linear infinite;
+  animation: desliza2 4s linear infinite;
 }
 @keyframes desliza2 {
     0% { opacity:0; transform: translateX(-60px); }
