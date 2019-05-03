@@ -17,7 +17,7 @@
  margin:0;
  padding:0;
  position: absolute;
- top:8px;
+ top:9px;
  left:10px;
  opacity: 0.5;
 }
@@ -60,7 +60,7 @@ li{
   padding: 0;
   display: none;
 }
-.burguer:checked > .desplegable{
+.check:checked > .desplegable{
   display: block;
 }
 .link1{
