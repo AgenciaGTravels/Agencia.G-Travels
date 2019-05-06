@@ -30,7 +30,7 @@
 li{
   list-style-type:none;
 }
-.check{
+#check{
   cursor: pointer;
   position:absolute;
   top:-3px;
@@ -39,31 +39,32 @@ li{
   width:60px;
   height:50px;
   opacity: 0;
+
+}
+#check:checked ~ #desplegable{
+  display: block;
 }
 .Logo{
-  position: fixed;
+  position: relative;
   width: 45px;
   height: 45px;
-  top: 1px;
+  top: 3px;
   left: 320px;
   margin: 0;
   padding: 0;
   opacity: 0.7;
 }
-.desplegable{
-  position: fixed;
+#desplegable{
+  position: relative;
   background-color: #54C9B0;
   width: 381px;
   height: 120px;
   top: 47px;
   margin: 0;
   padding: 0;
-  
+  display: none;
 }
-.check:checked > .desplegable{
-  display: block;
-}
-.link1{
+.uno{
   width: 160px;
   height: 65px;
   margin: 0;
@@ -75,7 +76,7 @@ li{
   font-size: 12pt;
   margin-top: 15px;
 }
-.link2{
+.dos{
   width: 160px;
   height: 65px;
   margin: 0;
@@ -87,7 +88,8 @@ li{
   font-size: 12pt;
   margin-top: 15px;
 }
-.link3{
+.tres{
+  color: white;
   width: 380px;
   height: 65px;
   margin-top: -10px;
