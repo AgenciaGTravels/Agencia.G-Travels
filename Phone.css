@@ -43,6 +43,7 @@ li{
 }
 #check:checked ~ #desplegable{
   display: block;
+  z-index: 3;
 }
 .Logo{
   position: relative;
@@ -59,7 +60,7 @@ li{
   background-color: #54C9B0;
   width: 381px;
   height: 120px;
-  top: 47px;
+  top: 5px;
   margin: 0;
   padding: 0;
   display: none;
@@ -154,5 +155,34 @@ li{
    20% { opacity:1; transform: translateX(-45px); }
    80% { opacity:1; transform: translateX(45px); }
   100% { opacity:0; transform: translateX(55px); }
+}
+#banner img{
+  width: 380px;
+  height: 120px;
+  margin: 0;
+  margin-left: -8px;
+  margin-top: 40px;
+  padding: 0;
+  z-index: 4;
+}
+.Benvinguts{
+  width: 380px;
+  height: 30px;
+  margin: 0;
+  margin-left: -8px;
+  color: #49B29C;
+  text-shadow:2px 2px 5px white;
+}
+.Benvinguts h1{
+  font-size: 18pt;
+  text-align: center;
+}
+.Intro{
+  width: 310px;
+  height: 100px;
+  margin: 0;
+  margin-left: 25px;
+  margin-top: -10px;
+  text-align: center;
 }
 }
