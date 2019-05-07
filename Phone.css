@@ -1,4 +1,7 @@
-@media screen and (max-width:480px){
+body{
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:381px){
   body{
     background-color: #E5E4E4;
   }
@@ -85,7 +88,6 @@ li{
   float: right;
   text-align: center;
   color: white;
-  font-family: helvetica;
   font-size: 12pt;
   margin-top: 15px;
 }
@@ -98,7 +100,6 @@ li{
   float: left;
   text-align: center;
   color: white;
-  font-family: helvetica;
   font-size: 12pt;
   z-index: 2;
 }
@@ -171,18 +172,78 @@ li{
   margin: 0;
   margin-left: -8px;
   color: #49B29C;
-  text-shadow:2px 2px 5px white;
 }
 .Benvinguts h1{
-  font-size: 18pt;
+  font-style: bold;
+  font-size: 20pt;
   text-align: center;
 }
 .Intro{
-  width: 310px;
+  width: 325px;
+  height: 120px;
+  margin: 0;
+  margin-left: 15px;
+  margin-top: -5px;
+  text-align: center;
+}
+.Intro h4{
+  font-size: 11pt;
+
+}
+.Promosio h4{
+  position: absolute;
+  width: 350px;
   height: 100px;
   margin: 0;
-  margin-left: 25px;
-  margin-top: -10px;
+  margin-left: 8px;
+  margin-top: 0px;
   text-align: center;
+  font-size: 11pt;
+}
+.Promosio{
+  position: absolute;
+  width: 380px;
+  height: 30px;
+  margin: 0;
+  margin-left: -8px;
+  margin-top: 80px;
+  color: #49B29C;
+  text-shadow:2px 2px 5px white;
+  opacity: 0.4;
+  display: none;
+}
+.Promosio h1{
+  font-size: 18pt;
+  text-align: center;
+}
+#Box{
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  margin-left: 140px;
+  opacity: 0.7;
+  animation: 2s;
+  animation-name: Box;
+  animation-duration: 4s;
+}
+@keyframes Box {
+  0%   {left:-200px; top:350px; opacity: 0.25}
+
+  50%  {left:150px; top:350px;opacity: 0.40}
+
+  100% {left:8px; top:350px; opacity: 0.6}
+}
+#check2{
+  cursor: pointer;
+  position:absolute;
+  top:360px;
+  left:0px;
+  z-index:1;
+  width:381px;
+  height:50px;
+  opacity: 0;
+}
+#check2:checked ~ #Promosio{
+  display: block;
 }
 }
