@@ -178,7 +178,7 @@ li{
   height: 30px;
   margin:0 auto;
   margin-left: -3%;;
-  margin-top: 35px;
+  margin-top: 25px;
   padding: 0;
   color: #49B29C;
 }
@@ -186,6 +186,7 @@ h1{
   font-size: 18pt;
   text-align: center;
   font-weight: 900;
+  color: #49B29C;
 }
 .Intro{
   width: 325px;
@@ -216,7 +217,6 @@ h4{
   margin: 0;
   margin-left: -8px;
   margin-top: 80px;
-  color: #49B29C;
   opacity: 1;
   display: none;
 }
@@ -235,11 +235,11 @@ h4{
   animation-duration: 4s;
 }
 @keyframes Box {
-  0%   {left:-200px; top:361px; opacity: 0.25}
+  0%   {left:-200px; top:351px; opacity: 0.25}
 
-  50%  {left:150px; top:361px;opacity: 0.40}
+  50%  {left:150px; top:351px;opacity: 0.40}
 
-  100% {left:8px; top:361px; opacity: 0.6}
+  100% {left:8px; top:351px; opacity: 0.6}
 }
 #check2{
   cursor: pointer;
@@ -253,5 +253,13 @@ h4{
 }
 #check2:checked ~ #Promosio{
   display: block;
+}
+.Info{
+  width: 100%;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+  text-align: center;
 }
 }
