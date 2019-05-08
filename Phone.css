@@ -244,7 +244,7 @@ h4{
 #check2{
   cursor: pointer;
   position:absolute;
-  top:375px;
+  top:361px;
   left:0px;
   z-index:1;
   width:381px;
@@ -262,7 +262,7 @@ h4{
   margin-top: 25px;
   text-align: center;
 }
-.registre{
+#registre{
   background: #49B29C;
   width: 40%;
   height: 40px;
@@ -271,9 +271,32 @@ h4{
   border-radius: 50px;
   text-align: center;
 }
-.registre h1{
+#registre h1{
   color: white;
   line-height: 32pt;
   font-size: 16pt;
+}
+form{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+label{
+  display: block;
+}
+.alinea{
+  display: inline-block;
+  width: 5%;
+  margin: 0;
+  padding: 0;
+}
+#envia{
+  background-color: #FDFF7B;
+  margin-top: 10px;
+}
+.registrat{
+  margin-top: 30px;
 }
 }
