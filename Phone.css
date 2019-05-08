@@ -177,6 +177,7 @@ li{
   height: 30px;
   margin: auto;
   margin-left: -8px;
+  margin-top: 35px;
   padding: 0;
   color: #49B29C;
 }
@@ -233,11 +234,11 @@ h4{
   animation-duration: 4s;
 }
 @keyframes Box {
-  0%   {left:-200px; top:347px; opacity: 0.25}
+  0%   {left:-200px; top:376px; opacity: 0.25}
 
-  50%  {left:150px; top:347px;opacity: 0.40}
+  50%  {left:150px; top:376px;opacity: 0.40}
 
-  100% {left:8px; top:347px; opacity: 0.6}
+  100% {left:8px; top:376px; opacity: 0.6}
 }
 #check2{
   cursor: pointer;
