@@ -255,9 +255,9 @@ h4{
   display: block;
 }
 .Info{
-  width: 100%;
+  width: 95%;
   height: 160px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   margin-top: 25px;
   text-align: center;
