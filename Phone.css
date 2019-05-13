@@ -316,7 +316,7 @@ label{
 .verify{
   font-size: 10px;
 }
-.guies{
+.txt{
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -324,12 +324,21 @@ label{
   margin-top: 25px;
   text-align: center;
 }
+.guies{
+  text-align: center;
+  line-height: 240pt;
+  font-size: 12pt;
+  font-style: bold;
+  color: #49B29C;
+}
 #arquitectura{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -2px;
   padding: 0;
+  border: solid 3px #54C9B0;
 }
 #museos{
   background: white;
