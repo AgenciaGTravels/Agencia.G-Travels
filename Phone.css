@@ -328,7 +328,7 @@ label{
   width: 100%;
   height: 565px;;
   text-align: center;
-  line-height: 240pt;
+  line-height: 140pt;
   font-size: 12pt;
   font-style: bold;
   color: #49B29C;
@@ -341,6 +341,7 @@ label{
   margin-top: 10px;
   padding: 0;
   border: solid 3px #54C9B0;
+  font-size: 18pt;
   text-shadow: -1px -1px 10px black;
 }
 #museos{
@@ -355,43 +356,44 @@ label{
 
 }
 #gastronomia{
-  background: white;
+  background-image: url(Img/.jpg);
   width: 100%;
   height: 170px;
   margin-top: 10px;
-  margin-left: -3px;
   padding: 0;
   border: solid 3px #54C9B0;
-
+  font-size: 18pt;
+  text-shadow: -1px -1px 10px black;
 }
 #entreteniment{
-  background: white;
+  background-image: url(Img/.jpg);
   width: 100%;
   height: 170px;
   margin-top: 10px;
-  margin-left: -3px;
   padding: 0;
   border: solid 3px #54C9B0;
+  font-size: 18pt;
+  text-shadow: -1px -1px 10px black;
 
 }
 #parcs{
-  background: white;
+  background-image: url(Img/.jpg);
   width: 100%;
   height: 170px;
   margin-top: 10px;
-  margin-left: -3px;
   padding: 0;
   border: solid 3px #54C9B0;
-
+  font-size: 18pt;
+  text-shadow: -1px -1px 10px black;
 }
 #platges{
-  background: white;
+  background-image: url(Img/.jpg);
   width: 100%;
   height: 170px;
   margin-top: 10px;
-  margin-left: -3px;
   padding: 0;
   border: solid 3px #54C9B0;
-
+  font-size: 18pt;
+  text-shadow: -1px -1px 10px black;
 }
 }
