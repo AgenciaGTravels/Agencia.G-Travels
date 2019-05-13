@@ -318,25 +318,28 @@ label{
 }
 .txt{
   width: 100%;
-  height: 100%;
+  height: 20px;
   margin: 0 auto;
   padding: 0;
   margin-top: 25px;
   text-align: center;
 }
 .guies{
+  width: 100%;
+  height: 565px;;
   text-align: center;
   line-height: 240pt;
   font-size: 12pt;
   font-style: bold;
   color: #49B29C;
+  overflow: scroll;
 }
 #arquitectura{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
-  margin-left: -2px;
+  margin-left: -3px;
   padding: 0;
   border: solid 3px #54C9B0;
 }
@@ -345,34 +348,49 @@ label{
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -3px;
   padding: 0;
+  border: solid 3px #54C9B0;
+
 }
 #gastronomia{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -3px;
   padding: 0;
+  border: solid 3px #54C9B0;
+
 }
 #entreteniment{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -3px;
   padding: 0;
+  border: solid 3px #54C9B0;
+
 }
 #parcs{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -3px;
   padding: 0;
+  border: solid 3px #54C9B0;
+
 }
 #platges{
   background: white;
   width: 100%;
   height: 170px;
   margin-top: 10px;
+  margin-left: -3px;
   padding: 0;
+  border: solid 3px #54C9B0;
+
 }
 }
