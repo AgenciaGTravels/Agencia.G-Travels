@@ -188,6 +188,12 @@ h1{
   font-weight: 900;
   color: #49B29C;
 }
+h2{
+  font-size: 14pt;
+  text-align: center;
+  font-weight: 400;
+  color: #49B29C;
+}
 .Intro{
   width: 325px;
   height: 120px;
@@ -421,7 +427,6 @@ b{
   padding-top: 60px;
 }
 .cuerpo{
-  background: red;
   margin: 0;
   padding: 0;
   width: 100%;
