@@ -417,4 +417,20 @@ b{
   width: 100%;
   height: 70px;
 }
+.apartados{
+  padding-top: 60px;
+}
+.cuerpo{
+  background: red;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 630px;
+  overflow: scroll;
+}
+.apartado{
+  background: white;
+  width: 100%;
+  height: 500px;
+}
 }
