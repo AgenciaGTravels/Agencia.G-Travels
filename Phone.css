@@ -318,7 +318,7 @@ label{
 }
 .txt{
   width: 100%;
-  height: 20px;
+  height: 28px;
   margin: 0 auto;
   padding: 0;
   margin-top: 25px;
@@ -333,7 +333,7 @@ label{
   line-height: 140pt;
   font-size: 12pt;
   font-style: bold;
-  color: #49B29C;
+  color: white;
   overflow: scroll;
 }
 #arquitectura{
@@ -362,7 +362,7 @@ label{
 
 }
 #gastronomia{
-  background-image: url(Img/.jpg);
+  background-image: url(Img/mercat.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 170px;
@@ -374,7 +374,7 @@ label{
   text-shadow: -1px -1px 10px black;
 }
 #entreteniment{
-  background-image: url(Img/.jpg);
+  background-image: url(Img/maremagnum.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 170px;
@@ -387,7 +387,7 @@ label{
 
 }
 #parcs{
-  background-image: url(Img/.jpg);
+  background-image: url(Img/parc.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 170px;
@@ -399,7 +399,7 @@ label{
   text-shadow: -1px -1px 10px black;
 }
 #platges{
-  background-image: url(Img/.jpg);
+  background-image: url(Img/barceloneta.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 170px;
@@ -409,5 +409,12 @@ label{
   border-bottom: solid 3px #54C9B0;
   font-size: 16pt;
   text-shadow: -1px -1px 10px black;
+}
+b{
+
+}
+#extra{
+  width: 100%;
+  height: 70px;
 }
 }
