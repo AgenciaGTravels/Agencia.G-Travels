@@ -427,15 +427,20 @@ b{
   padding-top: 60px;
 }
 .cuerpo{
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  width: 85%;
   height: 630px;
   overflow: scroll;
 }
 .apartado{
-  background: white;
+  margin: 0 auto;
+  padding: 0;
   width: 100%;
   height: 500px;
+}
+.apartado img{
+  display: block;
+  margin: 0 auto;
 }
 }
